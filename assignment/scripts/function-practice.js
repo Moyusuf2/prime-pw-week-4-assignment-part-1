@@ -62,7 +62,7 @@ function getLast( myList ) {
   else ( myList.length <=0 )
     return 'undefined';
   }
-console.log(getLast(myList));
+console.log('Last letter in my list is: ', getLast(myList));
 
 // 7. Function to find a value in an array. Return true if the 
 //    value is found and false otherwise. Use a loop;
@@ -90,7 +90,12 @@ console.log(find(2,myArray));
 // 8. Function to check if a letter is the first letter in a 
 //    string. Return true if it is, and false otherwise
 function isFirstLetter(letter, string) {
-  for( let )
+  if(letter === string.charAt(0))
+    return true;
+
+    else{
+      return false;
+    }
 
   
 
